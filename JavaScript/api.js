@@ -1,4 +1,4 @@
-const API_KEY = "22347e512d8cb4d9117afcbd3aeb1c1d";
+// const API_KEY = "gizli kalacak";
 
 // fonksiyon şehir ve birim bilgilerini parametre olarak alır
 export default async function fetchWeatherData(city,units) {
