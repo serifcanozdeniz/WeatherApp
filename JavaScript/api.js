@@ -1,11 +1,11 @@
-// const API_KEY = "gizli kalacak";
+const API_KEY = "22347e512d8cb4d9117afcbd3aeb1c1d";
 
 // fonksiyon şehir ve birim bilgilerini parametre olarak alır
 export default async function fetchWeatherData(city,units) {
     try{
         const response = await fetch(
             `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=${units}`);
-            // console.log(response);
+            console.log(response);
         // eğer istek başarılı değilse hata fırlat
         if(!response.ok){
             throw new Error("istek başarılı değil");
