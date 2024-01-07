@@ -8,10 +8,15 @@
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
 }
-
+body{
+    background-image: url(/images/bulut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .container{
     background-color: #18181840;
-    color: red;
+    color: turquoise;
     padding: 32px;
     width: 40%;
     margin: 64px auto;
@@ -39,12 +44,12 @@ input{
     border: none;
     background-color: #1e1e1e;
     outline: none;
-    color: red;
+    color: turquoise;
     padding: 8px 40px;
     border-radius: 5px;
 }
 input::placeholder{
-    color: red;
+    color: turquoise;
 }
 .weather-search{
     position: relative;
